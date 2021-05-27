@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Smart Contracts | IoTeX Documentation Review</title>
+  <meta name="description" content="A review of the IoTeX documentation for GitCoin bounty" />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Smart Contracts | IoTeX Documentation Review" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A review of the IoTeX documentation for GitCoin bounty" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Smart Contracts | IoTeX Documentation Review" />
+  
+  <meta name="twitter:description" content="A review of the IoTeX documentation for GitCoin bounty" />
+  
+
+<meta name="author" content="Ricky Esclapon" />
+
+
+<meta name="date" content="2021-05-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="software-tools-get-started.html"/>
+<link rel="next" href="test-code.html"/>
+<script src="libs/header-attrs-2.5.3/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Review of IoTeX documentation/a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="the-internet-of-trusted-things.html"><a href="the-internet-of-trusted-things.html"><i class="fa fa-check"></i><b>2</b> The Internet of Trusted Things</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="the-internet-of-trusted-things.html"><a href="the-internet-of-trusted-things.html#overall"><i class="fa fa-check"></i><b>2.1</b> Overall</a></li>
+<li class="chapter" data-level="2.2" data-path="the-internet-of-trusted-things.html"><a href="the-internet-of-trusted-things.html#smaller-comments"><i class="fa fa-check"></i><b>2.2</b> Smaller comments</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html"><i class="fa fa-check"></i><b>3</b> Software Tools - Get Started</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#install-ioctl-cli"><i class="fa fa-check"></i><b>3.1</b> Install ioctl cli</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#usage"><i class="fa fa-check"></i><b>3.1.1</b> Usage</a></li>
+<li class="chapter" data-level="3.1.2" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#next-steps"><i class="fa fa-check"></i><b>3.1.2</b> Next Steps</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="smart-contracts.html"><a href="smart-contracts.html"><i class="fa fa-check"></i><b>4</b> Smart Contracts</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="smart-contracts.html"><a href="smart-contracts.html#solidity-programming-language"><i class="fa fa-check"></i><b>4.1</b> Solidity Programming Language</a></li>
+<li class="chapter" data-level="4.2" data-path="smart-contracts.html"><a href="smart-contracts.html#advantages-of-iotex-smart-contracts"><i class="fa fa-check"></i><b>4.2</b> Advantages of IoTeX Smart Contracts</a></li>
+<li class="chapter" data-level="4.3" data-path="smart-contracts.html"><a href="smart-contracts.html#issue-xrc20-tokens-on-iotex"><i class="fa fa-check"></i><b>4.3</b> Issue XRC20 Tokens on IoTeX</a></li>
+<li class="chapter" data-level="4.4" data-path="smart-contracts.html"><a href="smart-contracts.html#token-metadata"><i class="fa fa-check"></i><b>4.4</b> Token Metadata</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="test-code.html"><a href="test-code.html"><i class="fa fa-check"></i><b>5</b> Test Code</a></li>
+<li class="divider"></li>
+<li><a href="https://docs.iotex.io/" target="blank">Link to documentation</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">IoTeX Documentation Review</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="smart-contracts" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Smart Contracts</h1>
+<p><img src="images/smart_contracts_intro.jpg" /></p>
+<p>Here might be good to give a really basic understanding of what the EVM is, or at least link to a resource for users to learn more.</p>
+<div id="solidity-programming-language" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Solidity Programming Language</h2>
+<p><img src="images/solidity_programming_language.jpg" /></p>
+<p>Some great links in here and none of them are broken, so all good on that front. One thing that caused some confusion for me was the sentence <strong><em>“compliant with Solidity syntax, up to its latest release.”</em></strong>. Does this mean it’s compliant up to the current latest release (which one?), or does it mean that it will <strong><em>always</em></strong> be compliant with the latest release of Solidity?</p>
+<p>The one thing that stands out to me here is that there isn’t a very strong introduction around smart contracts, what they actually do, and why they are important. I think just one or two sentences around a smart contract being a way to trust that a protocol will work the way its supposed to work and a quick comparison between this mechanism and how traditional companies work would be really helpful here before you start talking about the specifics of solidity. Might also be worth verbalizing better the connection between the EVM and the Solidity language, and how other smart contract languages exist too.</p>
+</div>
+<div id="advantages-of-iotex-smart-contracts" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Advantages of IoTeX Smart Contracts</h2>
+<p><img src="images/advantages_smart_contracts.jpg" /></p>
+<p>This section is informative, but I think it should have a link/resource added to it around <strong><em>Roll-DPoS</em></strong> and how that functions, I think that would be more relevant than the tokenomics link. I think it’s a fundamentally important point to understand to truly grasp how you get to 5-second confirmation time, instant finality, and close to $0 transaction fees. And I think it would really drive your point home of why the IoTeX blockchain is the perfect environment for deploying smart contracts that will be used in real-world applications. But really cool that IoTeX smart contracts are backward compatible with the EVM.</p>
+</div>
+<div id="issue-xrc20-tokens-on-iotex" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Issue XRC20 Tokens on IoTeX</h2>
+<p>I really love this section and how it’s broken down into step-by-step instructions! Unfortunately though on my end I could not get the IOTX Faucet to actually work. I tried 3 separate times on both Chrome and Firefox and the Google login works great, but when I click “Submit”, something is going wrong there. See error in top right corner here:</p>
+<p><img src="images/iotex_faucet.jpg" /></p>
+<p>And not seeing any balance in my account on testnet:
+<img src="images/iotex_faucet_wallet.jpg" /></p>
+<p>I tried doing the steps outlined for ide.iotex.io, but when I click on <strong><em>Compile Contract</em></strong> absolutely nothing is happening (on either environment of Javascript VM or deploy via ioPay). No clue what I am doing wrong:</p>
+<p><img src="images/ide_iotex_nothing.gif" /></p>
+<p>No clue what I’m doing wrong here. But in terms of feedback I think the code in step 2 could optionally be explained in more detail. One idea would be to explain what each step does in more detail through some type of other separate link and be able to dig into each step (like understanding the functionality of each of the three import statements one by one). The code in the documentation looks good, but the code linked on GitHub looks a bit off in terms of having the import link to the proper url and not sure if it’s importing from its own repository or something:</p>
+<p><img src="images/github_token_paths.jpg" /></p>
+<p>Overall though I think the steps as they are outlined are very logical and clear for this section, and it makes sense.</p>
+</div>
+<div id="token-metadata" class="section level2" number="4.4">
+<h2><span class="header-section-number">4.4</span> Token Metadata</h2>
+<p>This section is clear, but I think the metadata itself could be discussed more. I would almost like to see the JSON example from the GitHub repository be added into the official docs and have more of a discussion around what each one represents so people can get a better understanding of what to change and when. I think most people would figure out to change most of these, but would be great to give more details around the <strong><em>type</em></strong> (xrc20 vs. xrc721 and linking to good resources that give a good comparison of the two token standards), as well as the <strong><em>decimals</em></strong> and maybe giving a simple example of choosing one option over another on those two.</p>
+<p>But the <a href="https://github.com/iotexproject/iotex-token-metadata#iotex-token-metadata">GitHub repository</a> is really great and the <strong><em>New token submission process</em></strong> is very clearly outlined and I have no questions around that process, seems straightforward. The only question that comes to mind here is if one could have their token arbitrarily be rejected (outside of established guidelines). I also really like the code for the <strong><em>Usage</em></strong> section and how it’s way simple code, that’s awesome.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="software-tools-get-started.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="test-code.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["IoTeX-Documentation-Review.pdf", "IoTeX-Documentation-Review.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

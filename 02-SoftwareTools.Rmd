@@ -1,0 +1,42 @@
+# Software Tools - Get Started
+
+![](images/get_started.jpg)
+
+This section is nicely linked, but I think a more narrative approach would be more effective. I think the links are great and useful for a user that already has a clear idea of what they want to do and why, but I think the quick Get Started example should hold the users' hand even more than this the whole way, and clearly outline why each step will be necessary.
+
+So I think a good approach here would be to build something specific and straightforward and walk the user very clearly through the entire process to keep things more grounded and concrete. From there, I think it would be better to clearly explain why one needs to install the **ioctl cli**, then **create an account**, then **install a local testnet**, then **interact with the blockchain**, etc... Each step is necessary and serves a specific purpose, so it would be good to create a quick overview with a sentence or two detailing why each is necessary before the user actually gets started. I think it could help add clarity to the actual order of operations to have a quick explainer as well as a concrete easy project that users can ground themselves on as they work through the Get Started quickstart example.
+
+## Install ioctl cli
+
+Some important notes on this one: <https://docs.iotex.io/software-tools/get-started/install-ioctl-cli>
+
+![](images/install_cli.jpg){width="800"}
+
+Here you introduce the IoTeX ***gateway*** node, and you explain that it allows users to query and send ***actions*** to the blockchain, but I don't like how it links to that information separately. I believe here you should actually explain what a gateway and what an action is directly rather than linking to the definition separately. And, **very importantly**, these hyperlinks are **BROKEN** and need fixing:
+
+![](images/actions_docs_not_found.jpg){width="700"}
+
+As of 05/27, the following two links are **both broken**:
+
+-   <https://docs.iotex.io/introduction/node-concept>
+
+-   <https://docs.iotex.io/introduction/action-concept>
+
+
+### Usage
+
+The installation does not seem to work on my MacBook Air (M1, 2021) because of its arm64 architecture:
+
+![](images/install_cli_mac.jpg){width="700"}
+
+
+I also think the link to the reference for the cli is useful, but having it right below the step makes it seem like the next step. When going through this, I instinctively clicked on that link for the next chapter but was brought to the middle of nowhere in the references and was confusing:
+
+![](images/install_cli_next.jpg){width="700"}
+
+
+### Next Steps
+
+I wish I could document my experience with the steps from ***Create an IoTeX account*** to ***IOTX Faucets***, but unfortunately the ioctl cli installation does not seem to work on my M1 MacBook Air right now. I will have access to a windows computer again on May 29th and I would gladly give it another go and document my experience here as well. For now adding details for the sections where I am able to.
+
+

@@ -1,0 +1,9 @@
+# The Internet of Trusted Things
+
+## Overall
+
+I personally really like the quick access right off the bat to the different relevant links, but I think for some users it could be a little bit overwhelming and that the two sentence introduction to IoTeX might not be enough. One idea might be to provide a link to a concrete example for each of these for clarity to help people understand at least one example situation in which something like a "Decentralized Identity" could drive value for users.
+
+## Smaller comments
+
+-   For the one that reads ***ioTube Ethereum & BSC Bridge***, the description reads: *"Extend the reach of your ERC20 or BEP20 Token to the IoTeX Blockchain to run transactions-intensive tasks."*. A non-technical user might not know that Ethereum is ERC20 and that Binance Smart Chain is connected to BEP20 tokens. So I think it would not hurt to move to something more clear along the lines of: *"Extend the reach of your Ethereum (ERC20) or BSC tokens (BEP20) to the IoTeX Blockchain to run transactions-intensive tasks."*

@@ -1,0 +1,14 @@
+introduction
+the-internet-of-trusted-things
+overall
+smaller-comments
+software-tools---get-started
+install-ioctl-cli
+usage
+next-steps
+smart-contracts
+solidity-programming-language
+advantages-of-iotex-smart-contracts
+issue-xrc20-tokens-on-iotex
+token-metadata
+test-code
