@@ -49,6 +49,14 @@ No clue what I'm doing wrong here. But in terms of feedback I think the code in 
 
 Overall though I think the steps as they are outlined are very logical and clear for this section, and it makes sense.
 
+### Note
+
+As shown in the short videos embedded above, nothing was happening in the ioPay Desktop app. About an hour later though I noticed that I did have a prompt that ***eventually*** showed up:
+
+![](images/desktop_prompt.PNG)
+
+But I didn't have the website open anymore because it had been a long time, and when I went back to ide.iotex.io I was not able to find the compiled contract as shown in the last step of ***3. Build and Deploy***.
+
 
 ## Token Metadata
 

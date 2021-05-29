@@ -93,10 +93,22 @@
 <li class="chapter" data-level="3.2" data-path="smart-contracts.html"><a href="smart-contracts.html#issue-xrc20-tokens-on-iotex"><i class="fa fa-check"></i><b>3.2</b> Issue XRC20 Tokens on IoTeX</a>
 <ul>
 <li class="chapter" data-level="3.2.1" data-path="smart-contracts.html"><a href="smart-contracts.html#edit-solidity-code-in-iotex-studio-ide"><i class="fa fa-check"></i><b>3.2.1</b> Edit Solidity code in IoTeX Studio IDE</a></li>
+<li class="chapter" data-level="3.2.2" data-path="smart-contracts.html"><a href="smart-contracts.html#note-1"><i class="fa fa-check"></i><b>3.2.2</b> Note</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="smart-contracts.html"><a href="smart-contracts.html#token-metadata"><i class="fa fa-check"></i><b>3.3</b> Token Metadata</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html"><i class="fa fa-check"></i><b>4</b> iotex-antenna SDK</a></li>
+<li class="chapter" data-level="4" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html"><i class="fa fa-check"></i><b>4</b> iotex-antenna SDK</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html#overview"><i class="fa fa-check"></i><b>4.1</b> Overview</a></li>
+<li class="chapter" data-level="4.2" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html#installation"><i class="fa fa-check"></i><b>4.2</b> Installation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="iotex-dapp-starter.html"><a href="iotex-dapp-starter.html"><i class="fa fa-check"></i><b>5</b> IoTeX dapp starter</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="iotex-dapp-starter.html"><a href="iotex-dapp-starter.html#deploy-on-heroku"><i class="fa fa-check"></i><b>5.1</b> Deploy on Heroku</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="middleware.html"><a href="middleware.html"><i class="fa fa-check"></i><b>6</b> Middleware</a></li>
+<li class="chapter" data-level="7" data-path="pebble-tracker.html"><a href="pebble-tracker.html"><i class="fa fa-check"></i><b>7</b> Pebble Tracker</a></li>
+<li class="chapter" data-level="8" data-path="basic-concepts.html"><a href="basic-concepts.html"><i class="fa fa-check"></i><b>8</b> Basic Concepts</a></li>
 <li class="divider"></li>
 <li><a href="https://docs.iotex.io/" target="blank">Link to documentation</a></li>
 
@@ -144,10 +156,17 @@
 <h3><span class="header-section-number">3.2.1</span> Edit Solidity code in IoTeX Studio IDE</h3>
 <p>I tried doing the steps outlined for ide.iotex.io, but when I click on <strong><em>Compile Contract</em></strong> absolutely nothing is happening (on either environment of Javascript VM or deploy via ioPay). No clue what I am doing wrong:</p>
 <p><img src="images/ide_iotex_nothing.gif" /></p>
-<p>I tried from Mac, Windows, and Linux and could not get it to work on any of them.</p>
+<p>I tried from Mac, Windows, and Linux and could not get it to work on any of them. Here is an example trying from Windows deploying the smart contract to the ioPay Desktop environment:</p>
+<p><img src="images/deploy_smart_contract_no_response.gif" /></p>
 <p>No clue what I’m doing wrong here. But in terms of feedback I think the code in step 2 could optionally be explained in more detail. One idea would be to explain what each step does in more detail through some type of other separate link and be able to dig into each step (like understanding the functionality of each of the three import statements one by one). The code in the documentation looks good, but the code linked on GitHub looks a bit off in terms of having the import link to the proper url and not sure if it’s importing from its own repository or something:</p>
 <p><img src="images/github_token_paths.jpg" /></p>
 <p>Overall though I think the steps as they are outlined are very logical and clear for this section, and it makes sense.</p>
+</div>
+<div id="note-1" class="section level3" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Note</h3>
+<p>As shown in the short videos embedded above, nothing was happening in the ioPay Desktop app. About an hour later though I noticed that I did have a prompt that <strong><em>eventually</em></strong> showed up:</p>
+<p><img src="images/desktop_prompt.PNG" /></p>
+<p>But I didn’t have the website open anymore because it had been a long time, and when I went back to ide.iotex.io I was not able to find the compiled contract as shown in the last step of <strong><em>3. Build and Deploy</em></strong>.</p>
 </div>
 </div>
 <div id="token-metadata" class="section level2" number="3.3">
