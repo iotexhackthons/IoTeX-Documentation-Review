@@ -11,4 +11,4 @@ description: "A review of the IoTeX documentation for GitCoin bounty"
 
 My name is Ricky (ETH-0x8115AfD8DFfCE5579381AD27524b6Feeae917BEF) and this is my review of the IoTeX documentation for the following bounty on Gitcoin: https://gitcoin.co/issue/iotexproject/halogrants/32/100025753
 
-This document outlines each section from the IoTeX docs with my comments, [starting with **The Internet of Trusted Things** page in the next section](#the-internet-of-trusted-things).
+This document outlines each section from the IoTeX docs with my comments, [starting with **Software Tools** page in the next section](#the-internet-of-trusted-things).
