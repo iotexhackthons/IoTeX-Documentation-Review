@@ -1,4 +1,6 @@
 # Middleware
 
+Helpful guide on including the decentralized identity aspect into dApps with helpful smart contract code snippets.
 
+For ***Security Considerations*** section, the hashtag hyperlinks on the left side are broken.
 

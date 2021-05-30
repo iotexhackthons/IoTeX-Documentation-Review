@@ -1,0 +1,8 @@
+# System Info
+
+For screenshots running Linux commands, here is some info about that machine:
+
+![](images/linux_info.PNG)
+
+
+
