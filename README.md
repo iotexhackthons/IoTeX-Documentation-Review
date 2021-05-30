@@ -1,5 +1,5 @@
 # IoTeX-Documentation-Review
- A review of the IoTeX documentation for GitCoin bounty. 
+ A review of the IoTeX documentation for [Gitcoin bounty](https://gitcoin.co/issue/iotexproject/halogrants/32/100025753). 
  
 ## Deliverable
 
