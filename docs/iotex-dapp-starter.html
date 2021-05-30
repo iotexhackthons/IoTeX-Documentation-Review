@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 IoTeX dapp starter | IoTeX Documentation Review</title>
+  <meta name="description" content="A review of the IoTeX documentation for GitCoin bounty" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 IoTeX dapp starter | IoTeX Documentation Review" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A review of the IoTeX documentation for GitCoin bounty" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 IoTeX dapp starter | IoTeX Documentation Review" />
+  
+  <meta name="twitter:description" content="A review of the IoTeX documentation for GitCoin bounty" />
+  
+
+<meta name="author" content="Ricky Esclapon" />
+
+
+<meta name="date" content="2021-05-29" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="iotex-antenna-sdk.html"/>
+<link rel="next" href="middleware.html"/>
+<script src="libs/header-attrs-2.6.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Review of IoTeX documentation/a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html"><i class="fa fa-check"></i><b>2</b> Software Tools - Get Started</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#install-ioctl-cli"><i class="fa fa-check"></i><b>2.1</b> Install ioctl cli</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#usage"><i class="fa fa-check"></i><b>2.1.1</b> Usage</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#create-an-iotex-account"><i class="fa fa-check"></i><b>2.2</b> Create an IoTeX account</a></li>
+<li class="chapter" data-level="2.3" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#install-a-local-testnet"><i class="fa fa-check"></i><b>2.3</b> Install a local Testnet</a></li>
+<li class="chapter" data-level="2.4" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#feedback---user-experience"><i class="fa fa-check"></i><b>2.4</b> Feedback - User Experience</a></li>
+<li class="chapter" data-level="2.5" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#interact-with-the-blockchain"><i class="fa fa-check"></i><b>2.5</b> Interact with the blockchain</a></li>
+<li class="chapter" data-level="2.6" data-path="software-tools-get-started.html"><a href="software-tools-get-started.html#iotx-faucets"><i class="fa fa-check"></i><b>2.6</b> IOTX Faucets</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="smart-contracts.html"><a href="smart-contracts.html"><i class="fa fa-check"></i><b>3</b> Smart Contracts</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="smart-contracts.html"><a href="smart-contracts.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="smart-contracts.html"><a href="smart-contracts.html#solidity-programming-language"><i class="fa fa-check"></i><b>3.1.1</b> Solidity Programming Language</a></li>
+<li class="chapter" data-level="3.1.2" data-path="smart-contracts.html"><a href="smart-contracts.html#advantages-of-iotex-smart-contracts"><i class="fa fa-check"></i><b>3.1.2</b> Advantages of IoTeX Smart Contracts</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="smart-contracts.html"><a href="smart-contracts.html#issue-xrc20-tokens-on-iotex"><i class="fa fa-check"></i><b>3.2</b> Issue XRC20 Tokens on IoTeX</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="smart-contracts.html"><a href="smart-contracts.html#edit-solidity-code-in-iotex-studio-ide"><i class="fa fa-check"></i><b>3.2.1</b> Edit Solidity code in IoTeX Studio IDE</a></li>
+<li class="chapter" data-level="3.2.2" data-path="smart-contracts.html"><a href="smart-contracts.html#note-1"><i class="fa fa-check"></i><b>3.2.2</b> Note</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="smart-contracts.html"><a href="smart-contracts.html#token-metadata"><i class="fa fa-check"></i><b>3.3</b> Token Metadata</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html"><i class="fa fa-check"></i><b>4</b> iotex-antenna SDK</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html#overview"><i class="fa fa-check"></i><b>4.1</b> Overview</a></li>
+<li class="chapter" data-level="4.2" data-path="iotex-antenna-sdk.html"><a href="iotex-antenna-sdk.html#installation"><i class="fa fa-check"></i><b>4.2</b> Installation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="iotex-dapp-starter.html"><a href="iotex-dapp-starter.html"><i class="fa fa-check"></i><b>5</b> IoTeX dapp starter</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="iotex-dapp-starter.html"><a href="iotex-dapp-starter.html#deploy-on-heroku"><i class="fa fa-check"></i><b>5.1</b> Deploy on Heroku</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="middleware.html"><a href="middleware.html"><i class="fa fa-check"></i><b>6</b> Middleware</a></li>
+<li class="chapter" data-level="7" data-path="pebble-tracker.html"><a href="pebble-tracker.html"><i class="fa fa-check"></i><b>7</b> Pebble Tracker</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="pebble-tracker.html"><a href="pebble-tracker.html#quick-start"><i class="fa fa-check"></i><b>7.1</b> Quick Start</a></li>
+<li class="chapter" data-level="7.2" data-path="pebble-tracker.html"><a href="pebble-tracker.html#technical-specification"><i class="fa fa-check"></i><b>7.2</b> Technical Specification</a></li>
+<li class="chapter" data-level="7.3" data-path="pebble-tracker.html"><a href="pebble-tracker.html#hardware-setup"><i class="fa fa-check"></i><b>7.3</b> Hardware Setup</a></li>
+<li class="chapter" data-level="7.4" data-path="pebble-tracker.html"><a href="pebble-tracker.html#setup-modes"><i class="fa fa-check"></i><b>7.4</b> Setup Modes</a></li>
+<li class="chapter" data-level="7.5" data-path="pebble-tracker.html"><a href="pebble-tracker.html#develop-and-build-the-firmware"><i class="fa fa-check"></i><b>7.5</b> Develop and Build the Firmware</a>
+<ul>
+<li class="chapter" data-level="7.5.1" data-path="pebble-tracker.html"><a href="pebble-tracker.html#build-on-windows"><i class="fa fa-check"></i><b>7.5.1</b> Build on Windows</a></li>
+<li class="chapter" data-level="7.5.2" data-path="pebble-tracker.html"><a href="pebble-tracker.html#build-on-linuxmacos"><i class="fa fa-check"></i><b>7.5.2</b> Build on Linux/macOS</a></li>
+</ul></li>
+<li class="chapter" data-level="7.6" data-path="pebble-tracker.html"><a href="pebble-tracker.html#configure-the-firmware"><i class="fa fa-check"></i><b>7.6</b> Configure the firmware</a></li>
+<li class="chapter" data-level="7.7" data-path="pebble-tracker.html"><a href="pebble-tracker.html#application-firmware"><i class="fa fa-check"></i><b>7.7</b> Application firmware</a></li>
+<li class="chapter" data-level="7.8" data-path="pebble-tracker.html"><a href="pebble-tracker.html#bootloader-firmware"><i class="fa fa-check"></i><b>7.8</b> Bootloader firmware</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="more-resources.html"><a href="more-resources.html"><i class="fa fa-check"></i><b>8</b> More Resources</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="more-resources.html"><a href="more-resources.html#exchange-integration---general-guide"><i class="fa fa-check"></i><b>8.1</b> Exchange Integration - General Guide</a></li>
+<li class="chapter" data-level="8.2" data-path="more-resources.html"><a href="more-resources.html#exchange-integration---rosetta-api"><i class="fa fa-check"></i><b>8.2</b> Exchange Integration - Rosetta API</a></li>
+<li class="chapter" data-level="8.3" data-path="more-resources.html"><a href="more-resources.html#action-injector"><i class="fa fa-check"></i><b>8.3</b> Action Injector</a></li>
+<li class="chapter" data-level="8.4" data-path="more-resources.html"><a href="more-resources.html#hermes"><i class="fa fa-check"></i><b>8.4</b> Hermes</a></li>
+<li class="chapter" data-level="8.5" data-path="more-resources.html"><a href="more-resources.html#analytics-bookkeeping"><i class="fa fa-check"></i><b>8.5</b> Analytics Bookkeeping</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="basic-concepts.html"><a href="basic-concepts.html"><i class="fa fa-check"></i><b>9</b> Basic Concepts</a></li>
+<li class="chapter" data-level="10" data-path="system-info.html"><a href="system-info.html"><i class="fa fa-check"></i><b>10</b> System Info</a></li>
+<li class="divider"></li>
+<li><a href="https://docs.iotex.io/" target="blank">Link to documentation</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">IoTeX Documentation Review</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="iotex-dapp-starter" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> IoTeX dapp starter</h1>
+<div id="deploy-on-heroku" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Deploy on Heroku</h2>
+<p>Did not run into any issues when deploying to Heroku. Had never used it and made an account and worked really well out of the box just pressing the button and following the prompt:</p>
+<p><img src="images/heroku_deploy.PNG" /></p>
+<p>So no issues at all to get to the working dApp:</p>
+<p><img src="images/heroku_app.PNG" /></p>
+<p>The only thing I’m not sure of is where one can find the actual files that make everything work behind the scenes, but it’s all available on the <a href="https://github.com/iotexproject/iotex-dapp-sample">GitHub repository</a> so that works well.</p>
+<p>For this part:</p>
+<p><img src="images/dapp_starter_features.PNG" /></p>
+<p>This is really awesome, but would be even more awesome and functional if each of these linked to a high-level explainer, even if that explainer just re-directs to other pieces of the documentation where those topics were discussed.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="iotex-antenna-sdk.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="middleware.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["IoTeX-Documentation-Review.pdf", "IoTeX-Documentation-Review.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
