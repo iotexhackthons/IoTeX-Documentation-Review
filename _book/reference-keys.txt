@@ -1,5 +1,5 @@
 introduction
-software-tools---get-started
+software-tools
 install-ioctl-cli
 usage
 linux-install

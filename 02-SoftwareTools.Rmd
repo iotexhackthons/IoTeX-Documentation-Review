@@ -1,4 +1,4 @@
-# Software Tools - Get Started
+# Software Tools - Get Started {#software-tools}
 
 ![](images/get_started.jpg)
 
@@ -22,7 +22,6 @@ As of 05/27, the following two links are **both broken**:
 
 -   <https://docs.iotex.io/introduction/action-concept>
 
-
 ### Usage
 
 The installation does not seem to work on my MacBook Air (M1, 2021) because of its arm64 architecture:
@@ -35,17 +34,15 @@ I also think the link to the reference for the cli is useful, but having it righ
 
 ![](images/install_cli_next.jpg){width="700"}
 
-
 <!-- ### Next Steps -->
 
 <!-- I wish I could document my experience with the steps from ***Create an IoTeX account*** to ***IOTX Faucets***, but unfortunately the ioctl cli installation does not seem to work on my M1 MacBook Air right now. I will have access to a windows computer again on May 29th and I would gladly give it another go and document my experience here as well. For now adding details for the sections where I am able to. -->
 
 #### Linux install
 
-On Linux the installation worked as expected: 
+On Linux the installation worked as expected:
 
 ![](images/linux_cli_install.PNG)
-
 
 ## Create an IoTeX account
 
@@ -59,13 +56,11 @@ This command is supposed to prompt me to choose a password, but nothing seems to
 
 I watched the video embedded at the bottom of the page ***An introductory video to ioctl accounts management*** and followed the steps as shown.
 
-Running `ioctl account create`, still doesn't return anything:
-![](images/create_account_video.png)
+Running `ioctl account create`, still doesn't return anything: ![](images/create_account_video.png)
 
 I also think it's odd that the video overview walks people how to do it on Windows, but according to the documentations this does not currently work on Windows. I tried the steps in the video and I can confirm it does not work on Windows and powershell:
 
 ![](images/windows_install_powershell.PNG)
-
 
 The video is really good, but no commands seem to work on my end, but I see nothing:
 
@@ -95,7 +90,6 @@ This time it ran for much longer and I got a different error:
 
 ![](images/protoc_error.PNG)
 
-
 So this time I figured there was some kind of issue with ioctl since my commands were not functioning as expected. After a lot of experimentation I figured out that I needed to set an endpoint, and the commands like `ioctl version` started finally working:
 
 ![](images/linux_set_endpoint.PNG)
@@ -108,7 +102,6 @@ And all the commands that weren't doing anying before now seem to work as expect
 
 ![](images/list_accounts.PNG)
 
-
 This time, when I run the `make` command, ***yet another error***:
 
 ![](images/linux_testnet_error.PNG)
@@ -119,23 +112,21 @@ Here is the best explanation I was able to find for this error:
 
 At this point I called it quits, way too many errors, the [step of ***Install ioctl cli***](https://docs.iotex.io/software-tools/get-started/install-ioctl-cli) for sure needs some more work in my opinion. See section below.
 
-
 ## Feedback - User Experience
 
 This section was a bad experience on my end. Took me several hours to just run to create the account through ioctl. Two things that would have saved me all that time:
 
-1. Make the dependencies of Go and Protoc more obvious, and provide users with the installation commands for both as part of the tutorial (highlighted as an optional task if the user already has them installed).
+1.  Make the dependencies of Go and Protoc more obvious, and provide users with the installation commands for both as part of the tutorial (highlighted as an optional task if the user already has them installed).
 
-2. The tutorial ***NEEDS*** the command `ioctl config set endpoint api.iotex.one:443` in order to work. Without this step, on my end nothing was working at all, and worse it was just not returning any message at all, so it's impossible to debug.
+2.  The tutorial ***NEEDS*** the command `ioctl config set endpoint api.iotex.one:443` in order to work. Without this step, on my end nothing was working at all, and worse it was just not returning any message at all, so it's impossible to debug.
 
-3. More specific errors are needed. If you don't have a specific dependency of either Go or Protoc installed, the terminal should explicitly say so instead of returning a more ambiguous message. Only so much can be missing on the user's end, so it would be better to catch those specific circumstances.
+3.  More specific errors are needed. If you don't have a specific dependency of either Go or Protoc installed, the terminal should explicitly say so instead of returning a more ambiguous message. Only so much can be missing on the user's end, so it would be better to catch those specific circumstances.
 
 ## Interact with the blockchain
 
 I tried following the rest of the steps, but because of the issue outlined up to this point, I was not able to follow along with the rest of the steps:
 
 ![](images/interact_error.PNG)
-
 
 ## IOTX Faucets
 
@@ -153,9 +144,6 @@ And the transaction hash and everything here looks great and correct:
 
 #### Note
 
-One more quick observation here too is that faucet.iotex.io does not automatically redirect a user to https://faucet.iotex.io which I think would be good practice:
+One more quick observation here too is that faucet.iotex.io does not automatically redirect a user to <https://faucet.iotex.io> which I think would be good practice:
 
 ![](images/unsecured_faucet.PNG)
-
-
-
